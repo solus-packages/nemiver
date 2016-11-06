@@ -1,0 +1,31 @@
+name       : nemiver
+version    : 0.9.6
+release    : 1
+source     :
+    - https://mirror.umd.edu/gnome/sources/nemiver/0.9/nemiver-0.9.6.tar.xz : 85ab8cf6c4f83262f441cb0952a6147d075c3c53d0687389a3555e946b694ef2
+license    : GPL-2.0
+component  : programming.tools
+summary    : C/C++ debugger for GNOME
+description: |
+    C/C++ debugger for GNOME
+builddeps  :
+    - pkgconfig(glibmm-2.4)
+    - pkgconfig(gsettings-desktop-schemas)
+    - pkgconfig(gtkhex-3)
+    - pkgconfig(gtkmm-3.0)
+    - pkgconfig(gtksourceviewmm-3.0)
+    - pkgconfig(libgtop-2.0)
+    - pkgconfig(sqlite3)
+    - pkgconfig(vte-2.91)
+    - gdb
+    - itstool
+    - libboost-devel
+rundeps    :
+    - gdb
+setup      : |
+    %patch -p1 < $pkgfiles/beniofel.patch
+    %configure --enable-gsettings=yes
+build      : |
+    %make
+install    : |
+    %make_install

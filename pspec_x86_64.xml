@@ -1,0 +1,323 @@
+<PISI>
+    <Source>
+        <Name>nemiver</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>programming.tools</PartOf>
+        <Summary xml:lang="en">C/C++ debugger for GNOME</Summary>
+        <Description xml:lang="en">C/C++ debugger for GNOME
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>nemiver</Name>
+        <Summary xml:lang="en">C/C++ debugger for GNOME</Summary>
+        <Description xml:lang="en">C/C++ debugger for GNOME
+</Description>
+        <PartOf>programming.tools</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/cpptrait.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/gdbengine.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/gsettingsmgr.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/org.nemiver.db.sqlitedriver.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/varlist.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/varlistwalker.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/varobjwalker.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/varwalker.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/config/workbench.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/libnemivercommon.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/libnemivercommon.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libcpptraitmod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libcpptraitmod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libgdbmod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libgdbmod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libgsettingsmgrmod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libgsettingsmgrmod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libnemiverdbdsqlite.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libnemiverdbdsqlite.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarlistmod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarlistmod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarlistwalkermod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarlistwalkermod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarobjwalkermod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarobjwalkermod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarwalkermod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libvarwalkermod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libworkbenchmod.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/modules/libworkbenchmod.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/dbgperspective.conf</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/breakpoint-disabled-marker.png</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/breakpoint-marker.png</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/countpoint-marker.png</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/line-pointer.png</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/run-to-cursor.xpm</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/set-breakpoint.xpm</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/step-into.xpm</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/step-out.xpm</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/step-over.xpm</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/icons/throbber.gif</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/libdbgperspectiveplugin.a</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/libdbgperspectiveplugin.so</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/breakpointspopup.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/callstackpopup.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/contextualmenu.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/exprmonitorpopup.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/localvarsinspectorpopup.todelete.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/localvarsinspectorpopup.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/memoryview-menu.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/menus.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/terminalmenu.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/toolbar.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/menus/varinspectorpopup.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/plugin-descriptor.xml</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/sqlscripts/create-tables.sql</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/sqlscripts/drop-tables.sql</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/callfunctiondialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/chooseoverloadsdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/exprinspectordialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/findtextdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/globalvarsinspector.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/loadcoredialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/openfiledialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/preferencesdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/proclistdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/remotetargetdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/runprogramdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/savedsessionsdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/setbreakpointdialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/setjumptodialog.ui</Path>
+            <Path fileType="library">/usr/lib64/nemiver/plugins/dbgperspective/ui/watchpointdialog.ui</Path>
+            <Path fileType="data">/usr/share/appdata/nemiver.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/nemiver.desktop</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.nemiver.gschema.xml</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/C/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/cs/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/de/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/el/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/es/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/fr/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/gl/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/oc/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/pt_BR/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/sl/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/sv/nemiver/legal.xml</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/attach-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/connect-remote-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/disabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/enabled-breakpoint.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/execute-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/global-variables-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/load-core-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/main-window.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/memory-view.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/open-files-target.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/registers-view.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/sessions-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/set-breakpoint-dialog.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/figures/variable-inspector.png</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/index.docbook</Path>
+            <Path fileType="doc">/usr/share/help/zh_CN/nemiver/legal.xml</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/nemiver.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/nemiver.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/nemiver.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/nemiver.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/nemiver.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/nemiver.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/nemiver-symbolic.svg</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/usr/share/nemiver</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>nemiver-devel</Name>
+        <Summary xml:lang="en">Development files for nemiver</Summary>
+        <Description xml:lang="en">C/C++ debugger for GNOME
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">nemiver</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-11-06</Date>
+            <Version>0.9.6</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
