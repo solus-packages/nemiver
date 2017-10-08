@@ -2,8 +2,8 @@
     <Source>
         <Name>nemiver</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>programming.tools</PartOf>
@@ -305,19 +305,19 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">nemiver</Dependency>
+            <Dependency release="2">nemiver</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-11-06</Date>
+        <Update release="2">
+            <Date>2017-10-08</Date>
             <Version>0.9.6</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
