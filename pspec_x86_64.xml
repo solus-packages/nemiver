@@ -10,7 +10,7 @@
         <Summary xml:lang="en">C/C++ debugger for GNOME</Summary>
         <Description xml:lang="en">C/C++ debugger for GNOME
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>nemiver</Name>
@@ -19,7 +19,7 @@
 </Description>
         <PartOf>programming.tools</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/nemiver</Path>
             <Path fileType="library">/usr/lib64/nemiver/config/cpptrait.conf</Path>
             <Path fileType="library">/usr/lib64/nemiver/config/gdbengine.conf</Path>
             <Path fileType="library">/usr/lib64/nemiver/config/gsettingsmgr.conf</Path>
@@ -293,9 +293,56 @@
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/nemiver.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/nemiver.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/nemiver-symbolic.svg</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="man">/usr/share/man</Path>
-            <Path fileType="data">/usr/share/nemiver</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/as/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bs/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca@valencia/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/dz/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eo/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hi/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ml/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/oc/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@latin/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tg/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/th/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ug/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/nemiver.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/nemiver.1</Path>
+            <Path fileType="data">/usr/share/nemiver/menus/menubar.xml</Path>
+            <Path fileType="data">/usr/share/nemiver/ui/locatefiledialog.ui</Path>
+            <Path fileType="data">/usr/share/nemiver/ui/workbench.ui</Path>
         </Files>
     </Package>
     <Package>
@@ -305,15 +352,64 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="3">nemiver</Dependency>
+            <Dependency release="4">nemiver</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="header">/usr/include/nemiver/common/config.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-address.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-api-macros.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-asm-instr.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-asm-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-buffer.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-conf-manager.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-connection-manager.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-connection.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-date-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-delete-statement.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-dynamic-module.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-env.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-exception.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-i-connection-driver.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-i-connection-manager-driver.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-i-input-stream.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-initializer.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-insert-statement.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-libxml-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-loc.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-log-stream-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-log-stream.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-namespace.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-object.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-option-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-parsing-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-plugin.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-proc-mgr.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-proc-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-range.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-safe-ptr-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-safe-ptr.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-scope-logger.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-sequence.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-sql-statement.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-str-utils.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-tools.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-transaction.h</Path>
+            <Path fileType="header">/usr/include/nemiver/common/nmv-ustring.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-conf-mgr.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-debugger.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-lang-trait.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-perspective.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-pref-mgr.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-var-list-walker.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-var-list.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-var-walker.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-i-workbench.h</Path>
+            <Path fileType="header">/usr/include/nemiver/dynmods/nmv-var.h</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-04-25</Date>
+        <Update release="4">
+            <Date>2019-04-21</Date>
             <Version>0.9.6</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
