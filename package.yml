@@ -1,6 +1,6 @@
 name       : nemiver
 version    : 0.9.6
-release    : 5
+release    : 6
 source     :
     - https://download.gnome.org/sources/nemiver/0.9/nemiver-0.9.6.tar.xz : 85ab8cf6c4f83262f441cb0952a6147d075c3c53d0687389a3555e946b694ef2
 license    : GPL-2.0-only
